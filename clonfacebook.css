@@ -1,0 +1,119 @@
+body {
+    background-color: #F0F2F5;
+}
+
+
+.container1 {
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cont1 {
+    margin-left:30px;
+    position: center;
+    height: 500px;
+    flex-basis:60%;
+}
+
+.cont2 {
+
+    margin-top: 160px;
+    padding: 50px;
+    height: 300px;
+    flex-basis:40%;
+    margin-right: 300px;
+}
+
+.imagen {
+    margin-top:250px;
+    height: 100px;
+    width:350px;
+}
+
+.text {
+    margin-top:10px;
+    margin-left: 40px;
+    font-size: 28px;
+}
+
+.caja {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    background-color: white;
+    display:flex;
+   flex-direction: column;
+   border-radius:8px;
+   height: 400px;
+   width: 450px;
+}
+
+.cajitas {
+    border-radius:5px;
+    margin-left: 10px;
+    justify-content: center;
+    width: 400px;
+    height: 20px;
+    padding: 15px;
+    margin-top:15px;
+}
+
+input {
+    border-radius:5px;
+   font-size:15px;
+   outline-color: white;
+   border:none;
+}
+
+.input1 {
+    margin-top: 20px;
+}
+
+#entrar {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    
+}
+
+.contra {
+    margin-top: 15px;
+    
+}
+
+a { 
+    text-decoration: none;
+    text-align: center;
+    margin-top:15px;
+    height: 50px;
+    border-bottom: 1px solid #DADCE0;
+    width: 400px;
+    margin-left:15px;
+}
+
+.nueva {
+    font-size:larger;
+    border-radius:5px;
+    margin-top:80px;
+    margin-left: 90px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: green;
+    height: 20px;
+    width: 250px;
+    padding:15px;
+}
+
+.pagina {
+    margin-top: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}

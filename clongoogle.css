@@ -1,0 +1,179 @@
+body {
+   font-family:  arial,sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+
+.container {
+    display:flex;
+    flex-direction: column;
+}
+
+.nav {
+    text-align: right;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    margin-top: 20px;
+    height: 70px; 
+    flex-grow:100%;
+}
+
+#google {
+    margin-left: 10px;
+}
+
+#imagenes {
+    margin-left:10px;
+}
+
+#puntos {
+    color: gray;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#sesion {
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 20px;
+    background: #1a73e8;
+    cursor: pointer;
+    letter-spacing: 0.25px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 8px;
+    border-radius:4px;
+}
+
+
+.imagengoogle{
+    height: 130px;
+    width: 100%;
+    text-align: center;
+     margin-top: auto;
+     margin-bottom: 20px;
+}
+
+#imageng {
+    height: 120px;
+}
+
+.buscador {
+    display: flex;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    height: 50px;
+    width: 720px;
+    margin: 0 auto;
+}
+
+#lupa {
+    margin-left: 10px;
+    height: 50px;
+    width: 30px;
+  
+}
+
+.lupa {
+    margin-top: 10px;
+    height: 25px;
+    width: 30px;
+}
+
+
+
+#micro {
+    margin-left: 465px;
+    height: 50px;
+    width: 30px;
+}
+
+.micro {
+    margin-top: 10px;
+    height:25px;
+    width:30px;
+}
+
+.input {
+    border: none;
+    outline:none;
+}
+
+.bajobuscador {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    height:40px;
+
+}
+
+.botones {
+    background-color: #f8f9fa;
+   margin-left: 10px;
+   width: 150px;
+   height: 20px;
+   padding: 15px;
+   border-radius: 10px;
+   cursor:pointer;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+.argentina{
+    padding: 15px 30px;
+    border-bottom: 1px solid #BEBEBE;
+    font-size: 15px;
+    color: #70757A;
+    background-color: #EBEBEB;
+    font-family: arial,sans-serif;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #EBEBEB;;
+}
+.footer1{
+    display: flex;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: block;
+    padding: 15px;
+    font-family: arial,sans-serif;
+}
+.footer2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: block;
+    padding: 15px;
+    font-family: arial,sans-serif;
+}
+.foot{
+    color: #70757A;;
+}
+.a{
+    padding: 15px;
+}
+
+
+
+
+
