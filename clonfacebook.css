@@ -117,3 +117,47 @@ a {
 .bold {
     font-weight: bold;
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .container1 {
+
+        display:flex;
+        flex-direction: column;
+        margin: 0;
+        padding:0;
+    }
+
+   .cont1 {
+       flex-basis:0;
+       margin-bottom: 30px;
+   }
+
+   .cont2 {
+
+      flex-basis:0;
+      margin:0;
+      padding:10px;
+
+   }
+
+   .imagen {
+       margin:0;
+   }
+
+   .caja {
+       width:350px;
+       height: 400px;
+       margin:0;
+   }
+
+    #entrar {
+        margin-left: 80px;
+        width:180px;
+    }
+
+
+    .nueva{
+        margin-left:50px;
+        margin-top:0;
+    }
+}

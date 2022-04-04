@@ -153,7 +153,6 @@ footer{
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #202124;
-    display: block;
     padding: 15px;
     font-family: arial,sans-serif;
 }
@@ -162,7 +161,6 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    display: block;
     padding: 15px;
     font-family: arial,sans-serif;
 }
@@ -174,6 +172,28 @@ footer{
 }
 
 
+@media (min-width:320px) and (max-width: 767px){
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .nav {
 
+        display:flex;
+        flex-direction: row;
+        justify-content: end;
+    }
 
+    footer {
+  
+        display: flex;
+        flex-direction: column;
+       /*  position: fixed; */
+    }
+
+    .buscador {
+      flex-basis:100%;
+    }
+
+}
